@@ -8,7 +8,7 @@ import gregtech.client.renderer.texture.cube.OrientedOverlayRenderer;
 import gregtech.client.renderer.texture.cube.SimpleOverlayRenderer;
 
 @Mod.EventBusSubscriber(modid = GregicalityMultiblocks.MODID, value = Side.CLIENT)
-public final class GT_AURORATextures {
+public final class Textures {
 
     public static SimpleOverlayRenderer INDESTRUCTIBLE_CASING = simple("casings/hardened_casing/indestructible_casing");
     public static SimpleOverlayRenderer INDESTRUCTIBLE_PIPE_CASING = simple(
@@ -47,7 +47,7 @@ public final class GT_AURORATextures {
     public static final OrientedOverlayRenderer GODLIKEBEINGS_USED_NEEDLE_OVERLAY = oriented("multiblock/godlikebeings_used_needle");
     public static final OrientedOverlayRenderer LET_ABSOLUTE_WORLD_NATURALLY_BECOME_ANSWER_SETTLING_EVERYTHING_OVERLAY = oriented("multiblock/let_absolute_world_naturally_become_answer_settling_everything");
 
-    private GT_AURORATextures() {}
+    private Textures() {}
 
     private static SimpleOverlayRenderer simple(String basePath) {
         return new SimpleOverlayRenderer("gtaurora:" + basePath);

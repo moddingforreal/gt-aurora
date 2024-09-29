@@ -10,7 +10,7 @@ import net.minecraft.util.math.BlockPos;
 import gregtech.api.metatileentity.multiblock.MultiblockControllerBase;
 import gregtech.api.util.RelativeDirection;
 
-public final class GT_AURORAUtil {
+public final class GtAuroraUtil {
 
     public static ResourceLocation gt_auroraId(String name) {
         return new ResourceLocation("gtaurora", name);

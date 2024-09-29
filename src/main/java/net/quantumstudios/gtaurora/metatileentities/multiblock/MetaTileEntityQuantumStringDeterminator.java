@@ -5,8 +5,8 @@ import javax.annotation.Nonnull;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.ResourceLocation;
 
-import net.quantumstudios.gtaurora.api.recipes.GT_AURORARecipeMaps;
-import net.quantumstudios.gtaurora.api.render.GT_AURORATextures;
+import net.quantumstudios.gtaurora.api.recipe.RecipeMaps;
+import net.quantumstudios.gtaurora.api.render.Textures;
 
 import gregtech.api.GTValues;
 import gregtech.api.metatileentity.MetaTileEntity;
@@ -20,7 +20,6 @@ import gregtech.api.pattern.TraceabilityPredicate;
 import gregtech.api.unification.material.Materials;
 import gregtech.api.util.RelativeDirection;
 import gregtech.client.renderer.ICubeRenderer;
-import gregtech.client.renderer.texture.Textures;
 import gregtech.client.renderer.texture.cube.OrientedOverlayRenderer;
 import gregtech.common.blocks.*;
 import gregtech.common.metatileentities.MetaTileEntities;
@@ -28,7 +27,7 @@ import gregtech.common.metatileentities.MetaTileEntities;
 public class MetaTileEntityQuantumStringDeterminator extends RecipeMapMultiblockController {
 
     public MetaTileEntityQuantumStringDeterminator(ResourceLocation metaTileEntityId) {
-        super(metaTileEntityId, GT_AURORARecipeMaps.INFINITY_EXTRACTOR_RECIPES);
+        super(metaTileEntityId, RecipeMaps.INFINITY_EXTRACTOR_RECIPES);
     }
 
     @Nonnull
@@ -72,12 +71,12 @@ public class MetaTileEntityQuantumStringDeterminator extends RecipeMapMultiblock
 
     @Override
     public ICubeRenderer getBaseTexture(IMultiblockPart iMultiblockPart) {
-        return Textures.SOLID_STEEL_CASING;
+        return gregtech.client.renderer.texture.Textures.SOLID_STEEL_CASING;
     }
 
     @Override
     protected @Nonnull OrientedOverlayRenderer getFrontOverlay() {
-        return GT_AURORATextures.QUANTUM_STRING_DETERMINATOR_OVERLAY;
+        return Textures.QUANTUM_STRING_DETERMINATOR_OVERLAY;
     }
 
     @Override

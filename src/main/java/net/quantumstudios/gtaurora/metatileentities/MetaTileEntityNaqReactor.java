@@ -3,8 +3,8 @@ package net.quantumstudios.gtaurora.metatileentities;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 
-import net.quantumstudios.gtaurora.api.recipes.GT_AURORARecipeMaps;
-import net.quantumstudios.gtaurora.api.render.GT_AURORATextures;
+import net.quantumstudios.gtaurora.api.recipe.RecipeMaps;
+import net.quantumstudios.gtaurora.api.render.Textures;
 
 import codechicken.lib.render.CCRenderState;
 import codechicken.lib.render.pipeline.IVertexOperation;
@@ -17,7 +17,7 @@ import gregtech.client.renderer.ICubeRenderer;
 public class MetaTileEntityNaqReactor extends SimpleGeneratorMetaTileEntity {
 
     public MetaTileEntityNaqReactor(ResourceLocation metaTileEntityId, ICubeRenderer renderer, int tier) {
-        super(metaTileEntityId, GT_AURORARecipeMaps.NAQ_FUEL_CELL_RECIPES, renderer, tier, (a) -> 0, true);
+        super(metaTileEntityId, RecipeMaps.NAQ_FUEL_CELL_RECIPES, renderer, tier, (a) -> 0, true);
     }
 
     @Override
@@ -27,7 +27,7 @@ public class MetaTileEntityNaqReactor extends SimpleGeneratorMetaTileEntity {
 
     @Override
     protected void renderOverlays(CCRenderState renderState, Matrix4 translation, IVertexOperation[] pipeline) {
-        GT_AURORATextures.HYPERSTATIC_CASING.render(renderState, translation, pipeline);
+        Textures.HYPERSTATIC_CASING.render(renderState, translation, pipeline);
         super.renderOverlays(renderState, translation, pipeline);
     }
 

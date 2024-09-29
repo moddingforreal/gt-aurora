@@ -1,0 +1,67 @@
+# other
+item.blinding_glowstone.name=Blinding Glowstone
+item.ultradense_powder.name=Ultradense Powder
+
+
+# Shehitah
+item.botathaumahaemic_sentient_diode.name=Botathaumahaemic Sentient Diode
+item.botathaumahaemic_sentient_hivemind_cell.name=Botathaumahaemic Sentient Hivemind Cell
+item.botathaumahaemic_sentient_hivemind.name=Botathaumahaemic Sentient Hivemind
+
+
+# Tiferet
+item.constellationattuned_diastrode.name=Constellation-Attuned Diastrode
+item.astrothaumic_constellationattuned_archive.name=Astrothaumic Constellation-Attuned Archive
+
+
+# Gevurah
+item.astrothaumamanic_constellationlinked_repository.name=Astrothaumamanic Constellation-Linked Repository
+
+
+# UEV
+item.sparkschrabidic_epoxy_resin_sheet.name=Spark-Schrabidic Epoxy Resin Sheet
+item.sparkschrabidic_circuit_board.name=Spark-Schrabidic Circuit Board
+item.hyperconducting_antischrabidic_circuit.name=Hyper-Conducting Antischrabidic Processor
+item.hyperconducting_antischrabidicprocessor_assembly.name=Hyper-Conducting Antischrabidic Assembly
+item.hyperconducting_antischrabidic_computer.name=Hyper-Conducting Antischrabidic Computer
+item.hyperconducting_antischrabidicprocessor_mainframe.name=Hyper-Conducting Antischrabidic Mainframe
+
+
+# UIV
+item.stringentangled_epoxy_resin_sheet.name=String-Entangled Epoxy Resin Sheet
+item.stringentangled_circuit_board.name=String-Entangled Circuit Board
+item.stringentangled_circuit.name=String-Entangled Processor
+item.stringentangled_assembly.name=String-Entangled Assembly
+item.stringentangled_computer.name=String-Entangled Computer
+item.stringentangled_mainframe.name=String-Entangled Mainframe
+item.string_of_iris.name=String Of Iris
+item.string_of_kuzu.name=String Of Kuzu
+item.string_of_hawking.name=String Of Hawking
+item.string_of_stradivari.name=String Of Stradivari
+
+
+# UMV
+item.exotic_circuit.name=Exotic Processor
+item.exotic_assembly.name=Exotic Assembly
+item.exotic_computer.name=Exotic Computer
+item.exotic_mainframe.name=Exotic Mainframe
+item.exotic_epoxy_resin_sheet.name=Exotic Epoxy Resin Sheet
+item.exotic_circuit_board.name=Exotic Circuit Board
+
+# OpV
+item.superpositionlinked_particles.name=Superposition-Linked Particles
+item.superpositionlinked_circuit.name=Superposition-Linked Processor
+item.superpositionlinked_assembly.name=Superposition-Linked Assembly
+item.superpositionlinked_computer.name=Superposition-Linked Computer
+item.superpositionlinked_mainframe.name=Superposition-Linked Mainframe
+item.superpositionlinked_epoxy_resin_sheet.name=Superposition-Linked Epoxy Resin Sheet
+item.superpositionlinked_circuit_board.name=Superposition-Linked Circuit Board
+
+# MAX
+item.absolute_item.name=A Certain Couch Family
+item.absolute_circuit.name=Absolute Processor
+item.absolute_assembly.name=Absolute Assembly
+item.absolute_computer.name=Absolute Computer
+item.absolute_mainframe.name=Absolute Mainframe
+item.absolute_epoxy_resin_sheet.name=Absolute Epoxy Resin Sheet
+item.absolute_circuit_board.name=Absolute Circuit Board
